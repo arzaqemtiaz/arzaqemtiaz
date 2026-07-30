@@ -431,3 +431,51 @@ text-align:center;
 }
 
 }
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:rgba(255,255,255,.92);
+backdrop-filter:blur(12px);
+box-shadow:0 4px 20px rgba(0,0,0,.08);
+z-index:999;
+}
+
+.nav-logo img{
+height:55px;
+}
+
+nav{
+display:flex;
+gap:30px;
+align-items:center;
+}
+
+nav a{
+text-decoration:none;
+color:#7a4c4c;
+font-weight:700;
+transition:.3s;
+}
+
+nav a:hover{
+color:#b46b6b;
+}
+
+.nav-btn{
+background:#b46b6b;
+color:#fff;
+padding:10px 22px;
+border-radius:30px;
+text-decoration:none;
+font-weight:700;
+}
+
+body{
+padding-top:90px;
+}
