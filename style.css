@@ -7,7 +7,31 @@ box-sizing:border-box;
 html{
 scroll-behavior:smooth;
 }
+.social-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    padding:12px 22px;
+    border-radius:50px;
+    color:#fff;
+    text-decoration:none;
+    font-weight:700;
+    margin:8px;
+    transition:.3s;
+}
 
+.social-btn:hover{
+    transform:translateY(-3px);
+}
+
+.instagram{
+    background:#E1306C;
+}
+
+.snapchat{
+    background:#FFFC00;
+    color:#000;
+}
 body{
 font-family:'Cairo',sans-serif;
 background:#f7efe6;
