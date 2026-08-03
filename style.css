@@ -481,9 +481,10 @@ font-size:18px;
 }
 
 nav{
-display:flex;
-gap:30px;
-align-items:center;
+    display:flex;
+    align-items:center;
+    gap:40px;
+    margin:auto;
 }
 
 nav a{
