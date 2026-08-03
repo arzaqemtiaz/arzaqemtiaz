@@ -476,7 +476,8 @@ font-size:18px;
 }
 
 .nav-logo img{
-height:55px;
+    height:78px;
+    width:auto;
 }
 
 nav{
