@@ -541,3 +541,15 @@ border-radius:22px;
 box-shadow:0 20px 50px rgba(0,0,0,.18);
 display:block;
 }
+.book-btn{
+    background:#b46b6b;
+    color:#fff !important;
+    padding:10px 22px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.book-btn:hover{
+    background:#9b5a5a;
+    transform:translateY(-2px);
+}
