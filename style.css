@@ -462,7 +462,9 @@ padding:12px 16px;
 height:auto;
 }
 .nav-logo img{
-height:60px;
+    height:58px;
+    width:auto;
+    display:block;
 }
 nav{
 display:flex;
@@ -474,20 +476,20 @@ margin:0;
 }
 
 .navbar{
-position:fixed;
-top:0;
-right:0;
-left:0;
-height:82px;
-display:flex;
-align-items:center;
-justify-content:space-between;
-padding:0 32px;
-background:#fff;
-box-shadow:0 4px 18px rgba(0,0,0,.08);
-z-index:9999;
-}
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    background:#fff;
+    box-shadow:0 4px 18px rgba(0,0,0,.08);
+    padding:12px 20px;
+    z-index:9999;
 
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
 .nav-logo img{
 height:72px;
 width:auto;
@@ -495,18 +497,19 @@ display:block;
 }
 
 nav{
-display:flex;
-align-items:center;
-gap:30px;
-margin-right:auto;
-margin-left:40px;
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:28px;
+    flex-wrap:wrap;
 }
 
 nav a{
-text-decoration:none;
-color:#7a4c4c;
-font-weight:700;
-transition:.3s;
+    text-decoration:none;
+    color:#7a4c4c;
+    font-size:22px;
+    font-weight:700;
 }
 
 nav a:hover{
@@ -514,9 +517,8 @@ color:#b46b6b;
 }
 
 body{
-padding-top:90px;
+    padding-top:145px;
 }
-
 .hero-image{
 display:flex;
 justify-content:center;
