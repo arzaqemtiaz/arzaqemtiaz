@@ -438,18 +438,28 @@ font-size:18px;
 @media(max-width:900px){
 
 .hero-content{
-grid-template-columns:1fr;
+    display:flex;
+    flex-direction:column;
+    gap:30px;
 }
 
 .hero-image{
-order:-1;
+    width:100%;
+    order:-1;
+}
+
+.hero-video{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    aspect-ratio:auto;
 }
 
 .hero-text{
-text-align:center;
+    text-align:center;
 }
 
-}
+}}
 .navbar{
 position:fixed;
 top:0;
