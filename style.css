@@ -505,11 +505,13 @@ padding-top:90px;
     align-items:center;
 }
 
-.hero-video{
+..hero-video{
     width:100%;
-    max-width:520px;
-    aspect-ratio:9/16;
-    object-fit:cover;
+    max-width:650px;
+    height:auto;
+    aspect-ratio:auto;
+    object-fit:contain;
     border-radius:22px;
     box-shadow:0 20px 50px rgba(0,0,0,.18);
+    display:block;
 }
